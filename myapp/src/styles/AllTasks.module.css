@@ -1,0 +1,84 @@
+:root{
+  --main-light-color: rgb(244, 207, 179);
+  --main-dark-color: rgb(8,84,103);
+  --main-medium-color: rgb(175,167,187);
+  --btn-hover-back: rgba(8,84,103, 0.403);
+}
+
+
+.mainContainer{
+  font-family: 'Montserrat', sans-serif, 'Courier New', monospace;
+  font-weight: 700;
+  display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url("https://images.pexels.com/photos/5797904/pexels-photo-5797904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: left-top;
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+    background-size:100vh;
+    
+}
+.tasksContainer{
+  color: rgb(240, 238, 245);
+  font-size: 1.3em;
+    width: 60%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5rem;
+  padding-top: 5%;
+  background-color: rgba(8,84,103, 0.432);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  
+}
+
+.headerStyle{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.liContainer{
+  margin-top: 10px;
+  list-style: none;
+  text-decoration: none;
+  border-bottom: 1.2px solid var(--main-dark-color);
+  overflow-wrap: break-word;
+  
+}
+
+
+
+
+.titleStyle{
+  margin-left: -10px;
+  cursor: pointer;
+  font-size: 2.3rem;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+
+}
+
+
+.deleteIcon{
+ padding: 10px;
+  font-size: larger;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.editBtn {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+/* .updateWindow{
+  display: hide;
+} */
