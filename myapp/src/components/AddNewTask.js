@@ -26,7 +26,7 @@ export function NewTaskForm() {
       details: details,
       imageUrl: imageUrl,
       createDate: date,
-      userEmail: window.localStorage.getItem('name')
+      userEmail: window.localStorage.getItem('email')
     });
     clearInput();
    
